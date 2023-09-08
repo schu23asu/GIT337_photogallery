@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Photogallery - TK Photography</title>
+</head>
+
+<body>
+    <header>
+        <h1>TK Photography</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#top">top</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p><span class="firstWord">Hello!</span> I'm TK and I'm a photographer. I love looking at life through the
+                lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+
+            <div class="figures">
+
+                <figure>
+                    <img src="images/Chile.png" alt="Beach view with small rocky hill and wet sand, during sunset." />
+                    <figcaption>Chile, 2001</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Guatemala.png"
+                        alt="View of ocean with mountains at the end. Pic is taken on a stair surrounded by lavender flowers. Sky is purple during sunset." />
+                    <figcaption>Guatemala, 1997</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Hawaii.png"
+                        alt="Beautiful green Hawaii mountain, filled with trees, surrounded by clear ocean, during clear day with clouds." />
+                    <figcaption>Hawaii, 2010</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Iran.png"
+                        alt="Picture of dry and cracked ground with red bushes, as well as green bushes. Mountain is at the end of the view while bright sun is shining." />
+                    <figcaption>Iran, 1999</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Ireland.png"
+                        alt="Mountain filled with green trees and grass, with slight view of lake during clear day." />
+                    <figcaption>Ireland, 2012</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Italy.png"
+                        alt="View of big turquoise lake, with giant rocky hill at the end. The lake is surrounded with few trees." />
+                    <figcaption>Italy, 2015</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Moab-Desert.png"
+                        alt="View of a canyon from the top. Shows path of a lake and a sun shining during sunset." />
+                    <figcaption>Moab Desert, 2020</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Rocky-Mountains.png"
+                        alt="Picture of straight rocky mountains while Sea water is splashing on it. There are also lot of round rocks right below the rocky mountain." />
+                    <figcaption>Rocky Mountains, 2009</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Switzerland.png"
+                        alt="View of mountains above cloud. There are snows on the mountain as well as lot of cedar trees surrounding the view." />
+                    <figcaption>Switzerland, 2014</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/UK.png" alt="View of grassy hill, and blue and white sky. No sun, but clear." />
+                    <figcaption>UK, 2005</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/USA.png"
+                        alt="Picture of prairie with tulips and yellow daisies. There are cedar trees at the end of the view as well as lot of clouds on the not-so-clear sky." />
+                    <figcaption>USA, 2021</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Wyoming.png"
+                        alt="View of a small lake that is surrounded by cedar trees and rocky mountain, at the end of the view, that is visible through red sunlight." />
+                    <figcaption>Wyoming, 2021</figcaption>
+                </figure>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Please fill out this form and I'll connect with you soon.</p>
+
+            <h3>Your contact information</h3>
+            <form>
+                <label for="name">Name</label>
+                <div class="input">
+                    <input type="text" id="name" name="name" placeholder="Your full name" value="" minlength="3"
+                        maxlength="40">
+                </div>
+
+                <label for="email">Email</label>
+                <div class="input">
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" value=""
+                        maxlength="50">
+                </div>
+
+                <label for="message">Message</label>
+                <div class="input">
+                    <input type="text" id="message" name="message" placeholder="What can I help you with?" value=""
+                        maxlength="50">
+                </div>
+
+                <div class="input">
+                    <input type="submit" value="Submit" id="submitButton">
+                </div>
+            </form>
+        </section>
+        <div class="input copyright">
+            <small>Copyright 2021 TK Photography</small>
+        </div>
+    </footer>
+</body>
+
+</html>
